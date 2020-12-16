@@ -56,7 +56,7 @@ public class GerritProject implements Describable<GerritProject> {
     private List<FilePath> filePaths;
     private List<Topic> topics;
     private List<FilePath> forbiddenFilePaths;
-    private boolean disableStrictForbiddenFileVerification;
+    private boolean disableStrictForbiddenFileVerification = true;
 
     /**
      * Default empty constructor.
